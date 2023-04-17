@@ -1,5 +1,5 @@
 # create a bucket and enable versioning
 ```
-aws s3 mb s3://aws-devops-course-stephane --region eu-west-1 --profile aws-devops
-aws s3api put-bucket-versioning --bucket aws-devops-course-stephane --versioning-configuration Status=Enabled --region eu-west-1 --profile aws-devops
+aws s3 mb s3://aws-devops-course-latchu --region ap-south-1
+aws s3api put-bucket-versioning --bucket aws-devops-course-latchu --versioning-configuration Status=Enabled --region ap-south-1
 ```
